@@ -20,17 +20,23 @@ You can use the following folder structure or create your own:
 
 ## 1. Infrastructure Test
 
-Build out some basic Infrastructure for AWS, GCP or Azure using tooling like Terraform or CloudFormation that can be used in a repeatable way. Bonus points for the following:
+Build out some basic Infrastructure for AWS, GCP or Azure using tooling like Terraform or CloudFormation that can be used in a repeatable way. 
 
+**Bonus points for the following:**
 * Clearly explaining why you're doing things a certain way.
 * Providing a PNG diagram of your infrastructure.
 
+----
+
 ## 2. Automation Test
 
-Use a tool of your choice such as Ansible, Chef, Bash or similar to automate the installation of a Web Server that serves some static or dynamic content. Bonus points for the following:
+Use a tool of your choice such as Ansible, Chef, Bash or similar to automate the installation of a Web Server that serves some static or dynamic content.  
 
+**Bonus points for the following:**
 * Using Containers as part of your automation.
 * Creating a CI pipeline, using a tool of your choice, that deploys the web server to a cloud environment of your choice.
+
+----
 
 ## 3. Coding Test
 
@@ -40,7 +46,6 @@ Build a basic tool in Python, Go, Ruby, or another language of your choice that 
 * A basic API to provide you with some useful information.
 * Getting some information back from an external source and presenting it to the end user.
 
-Bonus points:
-
+**Bonus points for the following:**
 * If you're using third-party packages, make sure to use a packaging solution such as Pipenv or Bundler.
 * Apply the [Twelve Factor App](https://12factor.net/) methodology.
