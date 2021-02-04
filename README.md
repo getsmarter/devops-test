@@ -20,7 +20,7 @@ You can use the following folder structure or create your own:
 
 ## 1. Infrastructure Test
 
-Build out some basic Infrastructure for AWS, Azure or GCP using tooling like CloudFormation or Terraform that can be used in a repeatable way. Bonus points for the following:
+Build out some basic Infrastructure for AWS, GCP or Azure using tooling like Terraform or CloudFormation that can be used in a repeatable way. Bonus points for the following:
 
 * Clearly explaining why you're doing things a certain way.
 * Providing a PNG diagram of your infrastructure.
@@ -34,7 +34,7 @@ Use a tool of your choice such as Ansible, Chef, Bash or similar to automate the
 
 ## 3. Coding Test
 
-Build a basic tool in Python, Ruby, Node.js or another language of your choice that does _something_ you'd normally end up having to do manually. Some ideas:
+Build a basic tool in Python, Go, Ruby, or another language of your choice that does _something_ you'd normally end up having to do manually. Some ideas:
 
 * Backing up a database and sending the output to a cloud storage solution.
 * A basic API to provide you with some useful information.
