@@ -7,5 +7,4 @@ RUN sudo apt-get update \
  
 RUN brew install tfenv
 RUN tfenv install latest && tfenv use latest
-RUN pip install terraform-local awscli-local localstack[full]
-RUN localstack update localstack-cli && localstack start --host
+RUN pip install terraform-local awscli-local
