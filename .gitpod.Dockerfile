@@ -1,9 +1,11 @@
 FROM gitpod/workspace-full
 
+# For localstack
+RUN sudo apt-get update \
+ && sudo apt-get install -y libsasl2-dev \
+ && sudo rm -rf /var/lib/apt/lists/*
+ 
 RUN brew install tfenv
 RUN tfenv install latest && tfenv use latest
 RUN pip install terraform-local awscli-local localstack[full]
-RUN alias terraform=tflocal
-RUN alias aws=awslocal
-RUN localstack update localstack-cli
-RUN localstack start --host
+RUN localstack update localstack-cli && localstack start --host
