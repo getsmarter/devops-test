@@ -20,3 +20,7 @@ github:
     addComment: false
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: true
+ports:
+  # localstack
+  - port: 4566
+    onOpen: ignore
