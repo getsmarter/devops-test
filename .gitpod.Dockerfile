@@ -6,4 +6,4 @@ RUN pip install terraform-local awscli-local localstack
 RUN alias terraform=tflocal
 RUN alias aws=awslocal
 RUN localstack update localstack-cli
-RUN localstack start --host --detached
+RUN localstack start --host
