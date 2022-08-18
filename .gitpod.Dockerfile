@@ -8,3 +8,5 @@ RUN sudo apt-get update \
 RUN brew install tfenv
 RUN tfenv install latest && tfenv use latest
 RUN pip install terraform-local awscli-local
+RUN sudo mkdir -p /docker-entrypoint-initaws.d
+RUN sudo chown gitpod /docker-entrypoint-initaws.d
