@@ -4,6 +4,8 @@ image:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
+  - init: pip install --quiet localstack[full]
+    command: /workspace/.pip-modules/bin/localstack start --host
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
