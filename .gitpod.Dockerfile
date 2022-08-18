@@ -5,5 +5,5 @@ RUN tfenv install latest && tfenv use latest
 RUN pip install terraform-local awscli-local localstack
 RUN alias terraform=tflocal
 RUN alias aws=awslocal
-RUN localstack update all
-RUN localstack start --host
+RUN localstack update localstack-cli
+RUN localstack start --host --detached
