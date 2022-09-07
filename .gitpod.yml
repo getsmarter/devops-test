@@ -3,7 +3,7 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: docker pull localstack/localstack
-    command: /home/gitpod/.pyenv/shims/localstack start -d
+    command: localstack start -d
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
