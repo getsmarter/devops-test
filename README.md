@@ -28,17 +28,7 @@ Build out some basic Infrastructure for AWS, GCP or Azure using tooling like Ter
 
 ----
 
-## 2. Automation Test
-
-Use a tool of your choice such as Ansible, Chef, Bash or similar to automate the installation of a Web Server that serves some static or dynamic content.  
-
-**Bonus points for the following:**
-* Using Containers as part of your automation.
-* Creating a CI pipeline, using a tool of your choice, that deploys the web server to a cloud environment of your choice.
-
-----
-
-## 3. Coding Test
+## 2. Coding Test
 
 Build a basic tool in Python, Go, Ruby, or another language of your choice that does _something_ you'd normally end up having to do manually. Some ideas:
 
