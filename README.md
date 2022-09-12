@@ -1,41 +1,31 @@
-# DevOps Technical Test
+# SRE Technical Test
+Infrastructure is best represented as code and provisioning of resources should be automated as much as possible. Here at 2U, [Terraform](terraform.io) is our tool of choice. Below you will find 2 tasks that will help demonstrate your apptitude for these required tools
 
-We think infrastructure is best represented as code, and provisioning of resources should be automated as much as possible.
+The first task, under `Infrustructure`, write some simple `terraform`. If you have any questions regarding how to work within this space, please ask your interviewers.
 
-We are testing your ability to implement modern automated infrastructure, as well as general knowledge of system administration and coding. In your solution you should emphasize readability, maintainability and DevOps methodologies.
+For the second task we will assess your ability to write scripts. Scripts help us accomplish our day-to-day tasks more quickly. Whether it's a one off script to help import, migrate, or update terraform state. Or a task to help developers bootstrap application builds within our ci/cd pipelines.
 
-To begin, create a GitHub repository and start adding your work. Commit often, we would rather see a history of trial and error than a single monolithic push. When you're finished, send us the URL to your repository.
+## Setup
+Please goto this url prior to the interview to ensure your workstation is able to access and get a feel for the workspace. 
+* https://gitpod.io/#https://github.com/2uinc/devops-test
 
-You can use the following folder structure or create your own:
+## Infrastructure
 
-```
-./
-├─ 1_infrastructure
-│  └─ <your project>
-├─ 2_automation
-│  └─ <your project>
-└─ 3_coding
-   └─ <your project>
-```
+1. Build out some basic Infrastructure for AWS using Terraform that can be used in a repeatable way. 
 
-## 1. Infrastructure Test
-
-Build out some basic Infrastructure for AWS, GCP or Azure using tooling like Terraform or CloudFormation that can be used in a repeatable way. 
-
-**Bonus points for the following:**
-* Clearly explaining why you're doing things a certain way.
-* Providing a PNG diagram of your infrastructure.
+    * 3 - EC2 Instances. type `m5.large`
+    * Each instance should have an 100G EBS Volume attached
+    * Each instance should have separate `Name` tags in AWS
 
 ----
 
-## 2. Coding Test
+### Programming/Scripting
 
-Build a basic tool in Python, Go, Ruby, or another language of your choice that does _something_ you'd normally end up having to do manually. Some ideas:
+2. Build a basic tool/script in Python, Go, Ruby, or another language of your choice
 
-* Backing up a database and sending the output to a cloud storage solution.
-* A basic API to provide you with some useful information.
-* Getting some information back from an external source and presenting it to the end user.
-
-**Bonus points for the following:**
-* If you're using third-party packages, make sure to use a packaging solution such as Pipenv or Bundler.
-* Apply the [Twelve Factor App](https://12factor.net/) methodology.
+    * Rename files
+        * rename all the files in coding/images from jpg to jpeg
+    * Reverse string
+        * edxcodinginterview -> weivretnignidocxde
+    * Reverse last 4 char of string
+        * edxcodinginterview -> edxcodinginterweiv
