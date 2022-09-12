@@ -6,7 +6,7 @@ The first task, under `Infrustructure`, write some simple `terraform`. If you ha
 For the second task we will assess your ability to write scripts. Scripts help us accomplish our day-to-day tasks more quickly. Whether it's a one off script to help import, migrate, or update terraform state. Or a task to help developers bootstrap application builds within our ci/cd pipelines.
 
 ## Setup
-Please goto this url prior to the interview to ensure your workstation is able to access and get a feel for the workspace. 
+Please goto this url prior to the interview to ensure your workstation is able to access it and so you can get a feel for the vscode workspace. 
 * https://gitpod.io/#https://github.com/2uinc/devops-test
 
 ## Infrastructure
