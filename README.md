@@ -29,3 +29,15 @@ Please goto this url prior to the interview to ensure your workstation is able t
         * edxcodinginterview -> weivretnignidocxde
     * Reverse last 4 char of string
         * edxcodinginterview -> edxcodinginterweiv
+---
+
+### Linux Troubleshooting
+   
+1. Goto https://sadservers.com
+1. Select "Give Me a Sad Server"
+1. Read the General Instructions
+1. Solve the Scenario Given
+1. If time allows, choose More Scenarios
+1. Select the next scenario
+1. Repeat starting from step 3 until time expires
+   
