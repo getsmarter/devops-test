@@ -13,7 +13,9 @@ Please goto this url prior to the interview to ensure your workstation is able t
 
 1. Build out some basic Infrastructure for AWS using Terraform that can be used in a repeatable way. 
 
-    * 3 - EC2 Instances. type `m5.large`
+    * 3 - EC2 Instances
+      * type `m5.large`
+      * `ami-094125af156557ca2`
     * Each instance should have an 100G EBS Volume attached
     * Each instance should have separate `Name` tags in AWS
 
@@ -32,12 +34,14 @@ Please goto this url prior to the interview to ensure your workstation is able t
 ---
 
 ### Linux Troubleshooting
-   
-1. Goto https://sadservers.com
-1. Select "Give Me a Sad Server"
-1. Read the General Instructions
-1. Solve the Scenario Given
-1. If time allows, choose More Scenarios
-1. Select the next scenario
-1. Repeat starting from step 3 until time expires
+
+3. Sad Servers
+
+   1. Goto https://sadservers.com
+   1. Select "Give Me a Sad Server"
+   1. Read the General Instructions
+   1. Solve the Scenario Given
+   1. If time allows, choose More Scenarios
+   1. Select the next scenario
+   1. Repeat starting from step 3 until time expires
    
