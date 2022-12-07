@@ -1,4 +1,4 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+
 image:
   file: .gitpod.Dockerfile
 tasks:
@@ -25,3 +25,7 @@ ports:
   # localstack
   - port: 4566
     onOpen: ignore
+
+vscode:
+  extensions:
+    - hashicorp.terraform
