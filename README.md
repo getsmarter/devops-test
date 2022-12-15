@@ -18,6 +18,7 @@ Please goto this url prior to the interview to ensure your workstation is able t
     * 3 - EC2 Instances
       * type `m5.large`
       * `ami-094125af156557ca2`
+      * `us-west-2` region
     * Each instance should have an 100G EBS Volume attached
     * Each instance should have separate `Name` tags in AWS
 
