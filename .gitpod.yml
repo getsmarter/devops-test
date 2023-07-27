@@ -3,7 +3,6 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - before: alias terraform=tflocal && alias aws=awslocal
-    init: docker pull localstack/localstack
     command: localstack start -d
 github:
   prebuilds:
