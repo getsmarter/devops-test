@@ -1,13 +1,11 @@
 # SRE Technical Test
-Infrastructure is best represented as code and provisioning of resources should be automated as much as possible. 
+Below you will find three tasks that will help demonstrate your techincal apptitude in three separate domains of knowledge.
 
-Here at 2U, [Terraform](terraform.io) is our tool of choice. Below you will find two tasks that will help demonstrate your apptitude for these required tools.
+1. Infrastructure is best represented as code and provisioning of resources should be automated as much as possible. Here at 2U, [Terraform](terraform.io) is our tool of choice. In the first task under `Infrastructure`, write a reusable `terraform` configuration. If you have any questions regarding how to work within this space, please ask your interviewers.
 
-The first task, under `Infrastructure`, write some simple `terraform`. If you have any questions regarding how to work within this space, please ask your interviewers.
+2. Assess your ability to write scripts. Scripts help us accomplish day-to-day tasks quickly and more effifiently. Whether it's a one off script to help import, migrate, update terraform states or a task to help developers bootstrap application builds within our ci/cd pipelines.
 
-For the second task we will assess your ability to write scripts. Scripts help us accomplish our day-to-day tasks more quickly. Whether it's a one off script to help import, migrate, or update terraform state. Or a task to help developers bootstrap application builds within our ci/cd pipelines.
-
-Finally, we will do a bit of sys admin work.  For this we leverage https://sadservers.com which provids some scenarios to tackle.
+3. Finally, we will do a bit of sys admin work. For this we leverage https://sadservers.com which provides some scenarios to solve.
 
 ## Setup
 Please goto this url prior to the interview to ensure your workstation is able to access it and so you can get a feel for the vscode workspace. 
@@ -17,15 +15,15 @@ Please goto this url prior to the interview to ensure your workstation is able t
 
 ## Infrastructure
 
-1. Build out some Infrastructure for AWS using Terraform that can be used in a repeatable way. 
+1. Build out some Infrastructure for AWS using Terraform that can be used in a repeatable way. You can `plan` / `apply` config once complete.
 
 What to build:
-    * Total of three (3) EC2 Instances with the following:
-        * Instance Type: `m5.large`
-        * AMI: `ami-094125af156557ca2`
-        * Region: `us-west-2`
-    * Each instance should have an additional 100G EBS Volume attached
-    * Each instance should include unique `Name` tags
+* Total of three (3) EC2 Instances with the following:
+    * Instance Type: `m5.large`
+    * AMI: `ami-094125af156557ca2`
+    * Region: `us-west-2`
+* Each instance should have an additional 100G EBS Volume attached
+* Each instance should include unique `Name` tags
 
 **NOTE**: No VPC Required
 
